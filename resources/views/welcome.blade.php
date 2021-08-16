@@ -17,6 +17,7 @@
 
 @php
     $color = 'red';
+    $alert = 'alert2';
 @endphp
 
 <body class="antialiased">
@@ -30,15 +31,24 @@
             
             Hola mundo!
         </x-alert>
-        <x-alert>
+
+        {{-- Anonymous component --}}
+        <x-alert2 color="blue" class="mb-4">
 
             <x-slot name="title">
-                Titulo 2
+                Titulo de prueba
             </x-slot>
 
-            {{-- This will be stored in a component's variable called slot --}}
-            lorem ipsum dolor sit amet, consectetur adip
-        </x-alert>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit est mollitia impedit quia corporis, sunt ea numquam cum dicta voluptatibus ut quae animi doloribus doloremque tempora sit consequatur quasi!
+        </x-alert2>
+
+        <x-dynamic-component :component="$alert">
+            <x-slot name="title">
+                Titulo de prueba
+            </x-slot>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit est mollitia impedit quia corporis, sunt ea numquam cum dicta voluptatibus ut quae animi doloribus doloremque tempora sit consequatur quasi!
+        </x-dynamic-component>
     </div>
 
 </body>
