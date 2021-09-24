@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -60,4 +60,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+
+## Blog hecho con Laravel 8
+Este proyecto está hecho en base al curso de laravel desde 0 de codersfree, canal https://www.youtube.com/channel/UCWuyqD6Pm70GwjWtENF5XJA.
+<!-- 
+Se trata de un blog, el cual cuenta con un CRUD para los posts subidos por los usuarios registrados, los cuales tienen titulos, etiquetas y contenido, ademas de contar con comentarios hechos por otros usuarios. El proyecto cuenta con todos los controles necesarios para la gestión de posts, usuarios y comentarios registrados en los mismos.
+
+El proyecto cuenta con un sistema de control de usuarios y roles, los cuales tienen sus propios permisos para modificar el contenido del sitio, sinedo estos los roles de admin y blogger -->
